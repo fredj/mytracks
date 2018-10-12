@@ -1,0 +1,2433 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>mytracks documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">mytracks documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#context" title="src/test.ts"><b>context</b>&nbsp;&nbsp;&nbsp;(src/.../test.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#controlPointStyle" title="src/app/map/style.ts"><b>controlPointStyle</b>&nbsp;&nbsp;&nbsp;(src/.../style.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="src/environments/environment.prod.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.prod.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#environment" title="src/environments/environment.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#firstControlPointStyle" title="src/app/map/style.ts"><b>firstControlPointStyle</b>&nbsp;&nbsp;&nbsp;(src/.../style.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#geojsonFormat" title="src/app/map/map.service.ts"><b>geojsonFormat</b>&nbsp;&nbsp;&nbsp;(src/.../map.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#importedLineStyle" title="src/app/map/style.ts"><b>importedLineStyle</b>&nbsp;&nbsp;&nbsp;(src/.../style.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#lastControlPointStyle" title="src/app/map/style.ts"><b>lastControlPointStyle</b>&nbsp;&nbsp;&nbsp;(src/.../style.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MAPBOX_TOKEN" title="src/app/map/map.service.ts"><b>MAPBOX_TOKEN</b>&nbsp;&nbsp;&nbsp;(src/.../map.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MAPBOX_URLS" title="src/app/map/map.service.ts"><b>MAPBOX_URLS</b>&nbsp;&nbsp;&nbsp;(src/.../map.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MAPQUEST_API_KEY" title="src/app/place-search/place-search.service.ts"><b>MAPQUEST_API_KEY</b>&nbsp;&nbsp;&nbsp;(src/.../place-search.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#MAPQUEST_URL" title="src/app/place-search/place-search.service.ts"><b>MAPQUEST_URL</b>&nbsp;&nbsp;&nbsp;(src/.../place-search.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#marathonLausanne10Kms" title="src/app/api.service.ts"><b>marathonLausanne10Kms</b>&nbsp;&nbsp;&nbsp;(src/.../api.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#renensGeojson" title="src/app/api.service.ts"><b>renensGeojson</b>&nbsp;&nbsp;&nbsp;(src/.../api.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#require" title="src/test.ts"><b>require</b>&nbsp;&nbsp;&nbsp;(src/.../test.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#rochersNayeGeojson" title="src/app/api.service.ts"><b>rochersNayeGeojson</b>&nbsp;&nbsp;&nbsp;(src/.../api.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#trackCount" title="src/app/api.service.ts"><b>trackCount</b>&nbsp;&nbsp;&nbsp;(src/.../api.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#trackLineModifyingStyle" title="src/app/map/style.ts"><b>trackLineModifyingStyle</b>&nbsp;&nbsp;&nbsp;(src/.../style.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#trackLineStyle" title="src/app/map/style.ts"><b>trackLineStyle</b>&nbsp;&nbsp;&nbsp;(src/.../style.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#trackListStub" title="src/app/api.service.ts"><b>trackListStub</b>&nbsp;&nbsp;&nbsp;(src/.../api.service.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#tracksStub" title="src/app/api.service.ts"><b>tracksStub</b>&nbsp;&nbsp;&nbsp;(src/.../api.service.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/test.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="context"></a>
+                        <span class="name">
+                            <b>
+                            context
+                            </b>
+                            <a href="#context"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>context:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>require.context(&#x27;./&#x27;, true, /\.spec\.ts$/)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="require"></a>
+                        <span class="name">
+                            <b>
+                            require
+                            </b>
+                            <a href="#require"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>require:     <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/app/map/style.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="controlPointStyle"></a>
+                        <span class="name">
+                            <b>
+                            controlPointStyle
+                            </b>
+                            <a href="#controlPointStyle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>controlPointStyle:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Style({
+  image: new Circle({
+    radius: 4,
+    fill: new Fill({
+      color: &#x27;#fff&#x27;
+    }),
+    stroke: new Stroke({
+      width: 2,
+      color: &#x27;rgba(255, 0, 0, 0.5)&#x27;
+    })
+  })
+})</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="firstControlPointStyle"></a>
+                        <span class="name">
+                            <b>
+                            firstControlPointStyle
+                            </b>
+                            <a href="#firstControlPointStyle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>firstControlPointStyle:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>controlPointStyle</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="importedLineStyle"></a>
+                        <span class="name">
+                            <b>
+                            importedLineStyle
+                            </b>
+                            <a href="#importedLineStyle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>importedLineStyle:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Style({
+  stroke: new Stroke({
+    color: &#x27;#75a0ff&#x27;,
+    width: 6
+  })
+})</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="lastControlPointStyle"></a>
+                        <span class="name">
+                            <b>
+                            lastControlPointStyle
+                            </b>
+                            <a href="#lastControlPointStyle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>lastControlPointStyle:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>controlPointStyle</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="trackLineModifyingStyle"></a>
+                        <span class="name">
+                            <b>
+                            trackLineModifyingStyle
+                            </b>
+                            <a href="#trackLineModifyingStyle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>trackLineModifyingStyle:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Style({
+  stroke: new Stroke({
+    color: &#x27;#aaa&#x27;,
+    width: 3,
+    lineDash: [0.5, 4]
+  })
+})</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="trackLineStyle"></a>
+                        <span class="name">
+                            <b>
+                            trackLineStyle
+                            </b>
+                            <a href="#trackLineStyle"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>trackLineStyle:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Style({
+  stroke: new Stroke({
+    color: &#x27;#f00&#x27;,
+    width: 6
+  })
+})</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/environments/environment.prod.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environment"></a>
+                        <span class="name">
+                            <b>
+                            environment
+                            </b>
+                            <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>environment:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  production: true
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/environments/environment.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environment"></a>
+                        <span class="name">
+                            <b>
+                            environment
+                            </b>
+                            <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>environment:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  production: false
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/app/map/map.service.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="geojsonFormat"></a>
+                        <span class="name">
+                            <b>
+                            geojsonFormat
+                            </b>
+                            <a href="#geojsonFormat"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>geojsonFormat:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new GeoJSONFormat()</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="MAPBOX_TOKEN"></a>
+                        <span class="name">
+                            <b>
+                            MAPBOX_TOKEN
+                            </b>
+                            <a href="#MAPBOX_TOKEN"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>MAPBOX_TOKEN:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;pk.eyJ1IjoiZ2JvMiIsImEiOiJjam5kbGpqcTUwZTJ5M3BueTd6dHB3aHk3In0.Gi-NTgWMekLzwkz59kaMTQ&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="MAPBOX_URLS"></a>
+                        <span class="name">
+                            <b>
+                            MAPBOX_URLS
+                            </b>
+                            <a href="#MAPBOX_URLS"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>MAPBOX_URLS:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  &#x27;walking&#x27;: &#x27;https://api.mapbox.com/directions/v5/mapbox/walking&#x27;,
+  &#x27;cycling&#x27;: &#x27;https://api.mapbox.com/directions/v5/mapbox/cycling&#x27;,
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/app/place-search/place-search.service.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="MAPQUEST_API_KEY"></a>
+                        <span class="name">
+                            <b>
+                            MAPQUEST_API_KEY
+                            </b>
+                            <a href="#MAPQUEST_API_KEY"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>MAPQUEST_API_KEY:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;XQ2rYGNQsSVc56EzMiLUAsGzAGCTDSkd&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="MAPQUEST_URL"></a>
+                        <span class="name">
+                            <b>
+                            MAPQUEST_URL
+                            </b>
+                            <a href="#MAPQUEST_URL"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>MAPQUEST_URL:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;https://open.mapquestapi.com/geocoding/v1/address&#x27;</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+    <h3>src/app/api.service.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="marathonLausanne10Kms"></a>
+                        <span class="name">
+                            <b>
+                            marathonLausanne10Kms
+                            </b>
+                            <a href="#marathonLausanne10Kms"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>marathonLausanne10Kms:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  &#x27;type&#x27;: &lt;GeoJsonTypes&gt; &#x27;FeatureCollection&#x27;,
+  &#x27;features&#x27;: [
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          737185.7205447375,
+          5862931.095484056
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;subtype&#x27;: &#x27;first&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 0
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          739418.2329325966,
+          5861895.2665283745
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 1
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          743391.6708369718,
+          5861508.883762778
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 2
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          744397.2197973074,
+          5861368.017585186
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 3
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          744450.9871113605,
+          5861175.239975712
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 4
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          743734.3122296334,
+          5861463.437596649
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 5
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          739437.7138434855,
+          5861877.151929769
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 6
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          738654.8038647365,
+          5861924.541092522
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;subtype&#x27;: &#x27;last&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 7
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            737185.7205447375,
+            5862931.095484056
+          ],
+          [
+            737311.0662913708,
+            5862869.951659725
+          ],
+          [
+            737828.1453261055,
+            5862764.002389006
+          ],
+          [
+            738318.3963635591,
+            5862585.58993772
+          ],
+          [
+            738476.3587209948,
+            5862483.202559592
+          ],
+          [
+            738597.0290490147,
+            5862390.682921231
+          ],
+          [
+            738622.7438513879,
+            5862375.155245171
+          ],
+          [
+            738638.8851775529,
+            5862378.5519219665
+          ],
+          [
+            738810.651151847,
+            5862284.577681442
+          ],
+          [
+            739001.6753980481,
+            5862141.111199962
+          ],
+          [
+            739119.5627387983,
+            5862088.545149613
+          ],
+          [
+            739210.0654848133,
+            5861989.560086416
+          ],
+          [
+            739254.5932811305,
+            5861953.977492875
+          ],
+          [
+            739418.2329325966,
+            5861895.2665283745
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 0
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            739418.2329325966,
+            5861895.2665283745
+          ],
+          [
+            739440.5099760857,
+            5861894.921721842
+          ],
+          [
+            740693.0637411611,
+            5861875.5345567055
+          ],
+          [
+            741285.8400296354,
+            5861941.68535766
+          ],
+          [
+            741521.0581136815,
+            5861913.542902293
+          ],
+          [
+            741906.3348713171,
+            5862003.631424505
+          ],
+          [
+            741977.0227479709,
+            5862001.690548946
+          ],
+          [
+            742068.9726473661,
+            5861985.0313846925
+          ],
+          [
+            742307.8642746084,
+            5861876.828455132
+          ],
+          [
+            742499.7790767361,
+            5861827.498712438
+          ],
+          [
+            742754.4780716711,
+            5861674.17393502
+          ],
+          [
+            743028.1013800409,
+            5861615.950036475
+          ],
+          [
+            743391.6708369718,
+            5861508.883762778
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 1
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            743391.6708369718,
+            5861508.883762778
+          ],
+          [
+            743468.8152440914,
+            5861502.091082444
+          ],
+          [
+            743696.6862417454,
+            5861498.533013892
+          ],
+          [
+            743737.8744533388,
+            5861502.899734588
+          ],
+          [
+            743871.9031202539,
+            5861549.154761091
+          ],
+          [
+            743927.4515461597,
+            5861558.53518076
+          ],
+          [
+            743971.6453840047,
+            5861558.049986391
+          ],
+          [
+            744059.5877817315,
+            5861535.407612415
+          ],
+          [
+            744210.0917332838,
+            5861481.713072936
+          ],
+          [
+            744232.689589915,
+            5861451.7930652015
+          ],
+          [
+            744295.5851022131,
+            5861431.576901393
+          ],
+          [
+            744372.5068703513,
+            5861388.880516185
+          ],
+          [
+            744397.2197973074,
+            5861368.017585186
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 2
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            744397.2197973074,
+            5861368.017585186
+          ],
+          [
+            744436.2929385758,
+            5861278.582480708
+          ],
+          [
+            744442.3041910786,
+            5861214.700820185
+          ],
+          [
+            744453.7700986303,
+            5861179.444811366
+          ],
+          [
+            744460.2266290963,
+            5861175.401700124
+          ],
+          [
+            744450.9871113605,
+            5861175.239975712
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 3
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            744450.9871113605,
+            5861175.239975712
+          ],
+          [
+            744406.2366760616,
+            5861177.342393291
+          ],
+          [
+            744274.8796769256,
+            5861197.557972548
+          ],
+          [
+            744172.7997038681,
+            5861230.226446885
+          ],
+          [
+            744114.5796101833,
+            5861269.525811994
+          ],
+          [
+            744006.8223430953,
+            5861307.854991609
+          ],
+          [
+            743865.0013118248,
+            5861403.112621553
+          ],
+          [
+            743853.5354042731,
+            5861384.675580374
+          ],
+          [
+            743734.3122296334,
+            5861463.437596649
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;subtype&#x27;: &#x27;&#x27;,
+        &#x27;index&#x27;: 4
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            743734.3122296334,
+            5861463.437596649
+          ],
+          [
+            743730.9726449096,
+            5861485.109404575
+          ],
+          [
+            743757.132725246,
+            5861472.817924872
+          ],
+          [
+            743498.5375481333,
+            5861479.448852577
+          ],
+          [
+            743028.1013800409,
+            5861615.950036475
+          ],
+          [
+            742793.6625324303,
+            5861661.073524231
+          ],
+          [
+            742720.8595854514,
+            5861688.244768358
+          ],
+          [
+            742509.6865114167,
+            5861823.293566848
+          ],
+          [
+            742307.8642746084,
+            5861876.828455132
+          ],
+          [
+            742068.9726473661,
+            5861985.0313846925
+          ],
+          [
+            741977.0227479709,
+            5862001.690548946
+          ],
+          [
+            741906.3348713171,
+            5862003.631424505
+          ],
+          [
+            741521.0581136815,
+            5861913.542902293
+          ],
+          [
+            741292.8531575555,
+            5861941.847096175
+          ],
+          [
+            740693.0637411611,
+            5861875.5345567055
+          ],
+          [
+            739477.1209432263,
+            5861900.927348091
+          ],
+          [
+            739437.7138434855,
+            5861877.151929769
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;subtype&#x27;: &#x27;&#x27;,
+        &#x27;index&#x27;: 5
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            739437.7138434855,
+            5861877.151929769
+          ],
+          [
+            739410.3292487503,
+            5861796.607112875
+          ],
+          [
+            739379.4937498006,
+            5861728.516588211
+          ],
+          [
+            739345.318666127,
+            5861700.374815165
+          ],
+          [
+            739322.6094900052,
+            5861691.802913684
+          ],
+          [
+            739282.311834338,
+            5861687.436099162
+          ],
+          [
+            738654.8038647365,
+            5861924.541092522
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 6
+      }
+    }
+  ]
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="renensGeojson"></a>
+                        <span class="name">
+                            <b>
+                            renensGeojson
+                            </b>
+                            <a href="#renensGeojson"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>renensGeojson:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  &#x27;type&#x27;: &lt;GeoJsonTypes&gt; &#x27;FeatureCollection&#x27;,
+  &#x27;features&#x27;: [
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733484.5701148428,
+          5867144.57349804
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;subtype&#x27;: &#x27;first&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 0
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733686.6149906325,
+          5866845.50884536
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 1
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733621.270449537,
+          5866820.101765479
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 2
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733532.8827738471,
+          5867030.481074203
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 3
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733426.6839796304,
+          5866989.861292242
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 4
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733353.101796216,
+          5867147.972018489
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 5
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733451.7308650587,
+          5867219.017580295
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 6
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          733484.6814343336,
+          5867144.411663766
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;subtype&#x27;: &#x27;last&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 7
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733484.5701148428,
+            5867144.57349804
+          ],
+          [
+            733539.8959017671,
+            5867033.394053834
+          ],
+          [
+            733566.7238990483,
+            5867000.542172891
+          ],
+          [
+            733594.7764107281,
+            5866929.49837744
+          ],
+          [
+            733606.4649572615,
+            5866933.705966636
+          ],
+          [
+            733634.1835104689,
+            5866915.095491211
+          ],
+          [
+            733676.2622779888,
+            5866867.355756225
+          ],
+          [
+            733686.6149906325,
+            5866845.50884536
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 0
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733686.6149906325,
+            5866845.50884536
+          ],
+          [
+            733689.2866584116,
+            5866840.330326304
+          ],
+          [
+            733623.1628808804,
+            5866815.570574238
+          ],
+          [
+            733621.270449537,
+            5866820.101765479
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 1
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733621.270449537,
+            5866820.101765479
+          ],
+          [
+            733532.8827738471,
+            5867030.481074203
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 2
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733532.8827738471,
+            5867030.481074203
+          ],
+          [
+            733426.6839796304,
+            5866989.861292242
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 3
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733426.6839796304,
+            5866989.861292242
+          ],
+          [
+            733416.1086280049,
+            5866985.653676158
+          ],
+          [
+            733408.0936246678,
+            5867004.911627805
+          ],
+          [
+            733387.6108383618,
+            5867031.613899503
+          ],
+          [
+            733346.1999877867,
+            5867133.568774167
+          ],
+          [
+            733344.0849174617,
+            5867142.14598424
+          ],
+          [
+            733353.101796216,
+            5867147.972018489
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 4
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733353.101796216,
+            5867147.972018489
+          ],
+          [
+            733451.7308650587,
+            5867219.017580295
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 5
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            733451.7308650587,
+            5867219.017580295
+          ],
+          [
+            733454.291213347,
+            5867220.959608273
+          ],
+          [
+            733484.6814343336,
+            5867144.411663766
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 6
+      }
+    }
+  ]
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rochersNayeGeojson"></a>
+                        <span class="name">
+                            <b>
+                            rochersNayeGeojson
+                            </b>
+                            <a href="#rochersNayeGeojson"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>rochersNayeGeojson:     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  &#x27;type&#x27;: &lt;GeoJsonTypes&gt; &#x27;FeatureCollection&#x27;,
+  &#x27;features&#x27;: [
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776899.1715242193,
+          5849819.331360028
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;subtype&#x27;: &#x27;first&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 0
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          778072.256318199,
+          5850872.638866147
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 1
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          777449.31244772,
+          5850786.541067244
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 2
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776979.2102380998,
+          5850298.723288643
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 3
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776769.0390394821,
+          5850102.796141601
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 4
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776570.4450679069,
+          5849818.200749545
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 5
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776664.3987181364,
+          5849902.996938655
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 6
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776786.7388385182,
+          5849953.713525935
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 7
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;Point&#x27;,
+        &#x27;coordinates&#x27;: [
+          776894.6074250969,
+          5849824.015319283
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;controlPoint&#x27;,
+        &#x27;subtype&#x27;: &#x27;last&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 8
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            776899.1715242193,
+            5849819.331360028
+          ],
+          [
+            776916.6486842739,
+            5849801.241609747
+          ],
+          [
+            776956.5010619779,
+            5849829.345344923
+          ],
+          [
+            777013.3853217735,
+            5849850.342447002
+          ],
+          [
+            777035.649219932,
+            5849856.157037974
+          ],
+          [
+            777104.11070677,
+            5849849.050316196
+          ],
+          [
+            777120.697310898,
+            5849856.318554442
+          ],
+          [
+            777135.280164192,
+            5849874.085384312
+          ],
+          [
+            777134.3896082656,
+            5849886.522186552
+          ],
+          [
+            777097.0975788499,
+            5849996.515968688
+          ],
+          [
+            777103.2201508436,
+            5850008.145347575
+          ],
+          [
+            777144.5196819277,
+            5850019.936261303
+          ],
+          [
+            777153.3139217006,
+            5850031.565671132
+          ],
+          [
+            777154.5384360992,
+            5850092.943366441
+          ],
+          [
+            777198.1756764902,
+            5850123.955417341
+          ],
+          [
+            777278.7709878247,
+            5850226.683616337
+          ],
+          [
+            777375.5076253238,
+            5850300.661583938
+          ],
+          [
+            777448.9784892475,
+            5850371.248128287
+          ],
+          [
+            777478.255515326,
+            5850366.402352
+          ],
+          [
+            777536.6982479926,
+            5850390.954312676
+          ],
+          [
+            777600.5956357078,
+            5850369.471343334
+          ],
+          [
+            777622.080297431,
+            5850372.378809804
+          ],
+          [
+            777641.2272498474,
+            5850396.76926076
+          ],
+          [
+            777640.6706523935,
+            5850417.121609318
+          ],
+          [
+            777663.3798285153,
+            5850474.463796796
+          ],
+          [
+            777699.7813020047,
+            5850522.276159832
+          ],
+          [
+            777755.3297279106,
+            5850541.336566154
+          ],
+          [
+            777852.6229628638,
+            5850660.22274392
+          ],
+          [
+            777987.5421857054,
+            5850800.594496602
+          ],
+          [
+            778099.5295934434,
+            5850858.908391487
+          ],
+          [
+            778077.5996537571,
+            5850862.623694283
+          ],
+          [
+            778090.2900757075,
+            5850878.777202917
+          ],
+          [
+            778072.256318199,
+            5850872.638866147
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 0
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            778072.256318199,
+            5850872.638866147
+          ],
+          [
+            778090.2900757075,
+            5850878.777202917
+          ],
+          [
+            778090.9579926522,
+            5850874.092682366
+          ],
+          [
+            778077.5996537571,
+            5850862.623694283
+          ],
+          [
+            778098.8616764985,
+            5850863.915973883
+          ],
+          [
+            778099.5295934434,
+            5850858.908391487
+          ],
+          [
+            778077.8222927387,
+            5850847.1163538825
+          ],
+          [
+            778027.9511608632,
+            5850833.062850245
+          ],
+          [
+            777993.7760771897,
+            5850817.394027815
+          ],
+          [
+            777972.9593324113,
+            5850818.201698392
+          ],
+          [
+            777920.7504912294,
+            5850802.694436255
+          ],
+          [
+            777882.3452669056,
+            5850802.371368582
+          ],
+          [
+            777874.9981805134,
+            5850797.525354946
+          ],
+          [
+            777865.6473432867,
+            5850801.725233278
+          ],
+          [
+            777840.2664993859,
+            5850799.948361433
+          ],
+          [
+            777801.7499555714,
+            5850787.187201438
+          ],
+          [
+            777773.0295269466,
+            5850788.96407071
+          ],
+          [
+            777732.2865933164,
+            5850779.595127686
+          ],
+          [
+            777717.2584620593,
+            5850785.571866047
+          ],
+          [
+            777680.1890716251,
+            5850782.341196157
+          ],
+          [
+            777636.5518312341,
+            5850789.2871378865
+          ],
+          [
+            777572.5431240279,
+            5850777.010593438
+          ],
+          [
+            777507.0872634415,
+            5850786.218000165
+          ],
+          [
+            777466.1216908296,
+            5850799.786827646
+          ],
+          [
+            777455.657658695,
+            5850798.171489943
+          ],
+          [
+            777449.31244772,
+            5850786.541067244
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 1
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            777449.31244772,
+            5850786.541067244
+          ],
+          [
+            777434.7295944259,
+            5850766.995530382
+          ],
+          [
+            777398.6620794089,
+            5850744.703979335
+          ],
+          [
+            777385.0811015321,
+            5850722.089420012
+          ],
+          [
+            777349.4588644783,
+            5850701.574834324
+          ],
+          [
+            777326.8610078472,
+            5850677.183538744
+          ],
+          [
+            777274.0955692113,
+            5850635.670032162
+          ],
+          [
+            777252.165629525,
+            5850607.886783031
+          ],
+          [
+            777225.0036737714,
+            5850589.795412135
+          ],
+          [
+            777212.2019323303,
+            5850573.319374572
+          ],
+          [
+            777192.943660423,
+            5850559.104778706
+          ],
+          [
+            777155.0950335531,
+            5850513.553614773
+          ],
+          [
+            777140.7348192409,
+            5850505.80024865
+          ],
+          [
+            777113.795502469,
+            5850472.363935454
+          ],
+          [
+            777090.1957704206,
+            5850423.582682189
+          ],
+          [
+            776979.3215575907,
+            5850298.723288643
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 2
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            776979.2102380998,
+            5850298.723288643
+          ],
+          [
+            776950.8237679475,
+            5850247.520142569
+          ],
+          [
+            776853.7531719757,
+            5850038.995579907
+          ],
+          [
+            776824.6987848788,
+            5850000.39242661
+          ],
+          [
+            776788.519950371,
+            5849972.611182546
+          ],
+          [
+            776771.7107072611,
+            5850109.903068236
+          ],
+          [
+            776769.0390394821,
+            5850102.796141601
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 3
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            776769.0390394821,
+            5850102.796141601
+          ],
+          [
+            776726.8489524715,
+            5850009.760540301
+          ],
+          [
+            776699.4643577364,
+            5849999.100273781
+          ],
+          [
+            776580.68646106,
+            5849852.119127171
+          ],
+          [
+            776570.4450679069,
+            5849818.200749545
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 4
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            776570.4450679069,
+            5849818.200749545
+          ],
+          [
+            776597.4957041697,
+            5849824.338351055
+          ],
+          [
+            776637.3480818737,
+            5849858.095235817
+          ],
+          [
+            776664.3987181364,
+            5849902.996938655
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 5
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            776664.3987181364,
+            5849902.996938655
+          ],
+          [
+            776662.7289257747,
+            5849939.984484613
+          ],
+          [
+            776697.460606902,
+            5849945.3145804675
+          ],
+          [
+            776717.2754762633,
+            5849956.620855084
+          ],
+          [
+            776788.519950371,
+            5849972.611182546
+          ],
+          [
+            776786.7388385182,
+            5849953.713525935
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 6
+      }
+    },
+    {
+      &#x27;type&#x27;: &#x27;Feature&#x27;,
+      &#x27;geometry&#x27;: {
+        &#x27;type&#x27;: &#x27;LineString&#x27;,
+        &#x27;coordinates&#x27;: [
+          [
+            776786.7388385182,
+            5849953.713525935
+          ],
+          [
+            776781.5068224509,
+            5849847.758185579
+          ],
+          [
+            776815.9045451061,
+            5849869.078364994
+          ],
+          [
+            776853.9758109575,
+            5849874.569934716
+          ],
+          [
+            776860.9889388774,
+            5849858.741301858
+          ],
+          [
+            776894.6074250969,
+            5849824.015319283
+          ]
+        ]
+      },
+      &#x27;properties&#x27;: {
+        &#x27;type&#x27;: &#x27;segment&#x27;,
+        &#x27;snapped&#x27;: true,
+        &#x27;index&#x27;: 7
+      }
+    }
+  ]
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="trackCount"></a>
+                        <span class="name">
+                            <b>
+                            trackCount
+                            </b>
+                            <a href="#trackCount"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>trackCount:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>trackListStub.length</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="trackListStub"></a>
+                        <span class="name">
+                            <b>
+                            trackListStub
+                            </b>
+                            <a href="#trackListStub"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>trackListStub:     <code><a href="../interfaces/TrackListItem.html" target="_self" >Array&lt;TrackListItem&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/TrackListItem.html" target="_self" >Array&lt;TrackListItem&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[{
+  id: 1,
+  name: tracksStub.get(1).name
+}, {
+  id: 2,
+  name: tracksStub.get(2).name
+}, {
+  id: 3,
+  name: tracksStub.get(3).name
+}]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tracksStub"></a>
+                        <span class="name">
+                            <b>
+                            tracksStub
+                            </b>
+                            <a href="#tracksStub"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>tracksStub:     <code><a href="../interfaces/Track.html" target="_self" >Map&lt;number, Track&gt;</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../interfaces/Track.html" target="_self" >Map&lt;number, Track&gt;</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Map([
+  [1, {
+    id: 1,
+    name: &#x27;Tour des rochers de Naye&#x27;,
+    profile: &#x27;walking&#x27;,
+    geojson: rochersNayeGeojson
+  }],
+  [2, {
+    id: 2,
+    name: &#x27;Renens Run 1200 2km&#x27;,
+    profile: &#x27;walking&#x27;,
+    geojson: renensGeojson
+  }],
+  [3, {
+    id: 3,
+    name: &#x27;Marathon Lausanne 10kms&#x27;,
+    profile: &#x27;walking&#x27;,
+    geojson: marathonLausanne10Kms
+  }],
+])</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <script src="../js/menu-wc.js"></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
